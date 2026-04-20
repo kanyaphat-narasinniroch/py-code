@@ -1,0 +1,71 @@
+########## File: customers.csv #########
+Data Types:
+-customer_id:int64
+-first_name:object
+-last_name:object
+-age:float64
+-gender:object
+-postal_code:int64
+-email:object
+-phone_number:object
+-membership_status:object
+-join_date:object
+-last_purchase_date:object
+-total_spending:float64
+-average_order_value:float64
+-frequency:int64
+-preferred_category:object
+-churned:object
+
+Inconsistencies Or Anomalies:
+ Invalid Dates : 706
+    Negative Values : 0
+    Invalid IDs : 0
+    Unexpected Values : 720
+    Formatting Issues : 419
+    
+============================================================
+
+########## File: products.csv #########
+Data Types:
+-product_id:float64
+-product_name:object
+-category:object
+-ingredients:object
+-price:object
+-cost:object
+-seasonal:object
+-active:object
+-introduced_date:object
+
+Inconsistencies Or Anomalies:
+ Invalid Dates : 27
+    Negative Values : 2
+    Invalid IDs : 0
+    Unexpected Values : 36
+    Formatting Issues : 33
+    
+============================================================
+
+########## File: sales_transactions.csv #########
+Data Types:
+-transaction_id:int64
+-customer_id:int64
+-date:object
+-product_id:int64
+-quantity:int64
+-price:float64
+-payment_method:object
+-channel:object
+-store_id:float64
+-promotion_id:float64
+-discount_amount:float64
+
+Inconsistencies Or Anomalies:
+ Invalid Dates : 0
+    Negative Values : 0
+    Invalid IDs : 3
+    Unexpected Values : 0
+    Formatting Issues : 0
+    
+============================================================
